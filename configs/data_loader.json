@@ -1,0 +1,13 @@
+{
+    "type": "task1_kb",
+    "configs": {
+        "task1_kb": {
+            "dataset": "tos_100",
+            "category": "CH"
+        },
+        "task1": {
+            "dataset": "tos_100",
+            "category": "A"
+        }
+    }
+}

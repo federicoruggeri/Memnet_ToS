@@ -1,0 +1,18 @@
+,Id,Tag,Explanation
+0,nonotice,cr3,Since the clause states that the provider has the right to remove content and material without prior notice
+1,noretrieve,cr3,Since the clause states that the provider has the right to remove content and material without the possibility to retrieve such content and material
+2,fulldiscretion,cr3,"Since the clause states that the provider has the right to remove content and material for any reason, at its full discretion"
+3,lawviolation,cr2,"Since the clause states that the provider has the right to remove content and material in order to comply with applicable law, if he believes  in good faith that there is a case of law violation, including intellectual property infringments "
+4,termviolation,cr2,"Since the clause states that the provider has the right to remove content and material if he believes that there is a case  violation of terms such as acount tranfer, policies, standard, code of conduct"
+5,objcontent,cr2,"Since the clause states that the provider has the right to remove content and material that he considers to be offensive, obscene, abusive, harmful, objectable, inaccurate, inappropriate"
+6,comply,cr2,"Since the clause states that the provider has the right to remove content and material in order to comply with  the order or request of a court, law enforcement , other administrative agency or governmental body"
+7,serviceprotection,cr2,"Since the clause states that the provider has the right to remove content and material that he considers to be harmful to  or as creating threats for the provider's property, Site or Services, or consumers"
+8,criteriafailure,cr2,Since the clause states that the provider has the right to remove content and material if there is a failure in meeting  any applicable quality or eligibility criteria
+9,complaint,cr2,"Since the clause states that the provider has the right to remove content and material in case of complaints about users' performance, conduct, published content and information"
+10,rating,cr2,Since the clause states that the provider has the right to remove content and material in case of poor Ratings or Reviews
+11,fraudprevention,cr2,Since the clause states that the provider has the right to remove content and material in order to prevent fraud and illegal activities
+12,personalsafety,cr2,Since the clause states that the provider has the right to remove content and material to protect personal safety
+13,liability,cr2, Since the clause states that the provider has the right to remove content and material if they could subject the povider to liability
+14,tpright,cr2,"Since the clause states that the provider has the right to remove content and material if they constitute a violation of third party rights, including trademarks"
+15,susp,cr2,Since the clause states that the provider has the right to remove content and material upon suspenstion or termination
+16,inactive,cr2,Since the clause states that the provider has the right to remove content and material in case of users' inactivity

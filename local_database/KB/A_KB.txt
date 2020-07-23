@@ -1,0 +1,8 @@
+the consumer must first opt out for the arbitration not to be obligatory
+all disputes must be resolved through arbitration, instead of a court of law, and the rights and obligations of the party will be decided by an arbitrator instead of a judge or jury.
+the user is bound by the arbitration clause on grounds of accepting the ToS
+the arbitration is to take place in country different than the consumer's domicile.
+arbitration is mandatory though the clause contains exceptions where arbitration is not mandatory or does not apply under certain circumstances; this includes pursuing certain claims in a small claims court.
+arbitration is mandatory unless prohibited by applicable law.
+disputes which are unresolved informally, through a small claims court or otherwise, may be submitted for arbitration.
+the consumer is mandatorily subject to rules on dispute resolution not covered by law; this includes any rules on arbitration coined by an arbitral body, chamber, association or other type of organization.

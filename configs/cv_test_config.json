@@ -1,0 +1,49 @@
+{
+    "build_validation": true,
+    "cv_jobs": 1,
+    "cv_held_out_key": "test",
+    "pre_loaded": false,
+    "load_externally": false,
+    "split_key": "document_ID",
+    "validation_percentage": 0.2,
+    "error_metrics_additional_info": [
+        {
+            "pos_label": 1,
+            "labels": [
+                0,
+                1
+            ],
+            "average": "binary"
+        },
+        {},
+        {
+            "pos_label": 1,
+            "labels": [
+                0,
+                1
+            ],
+            "average": "binary"
+        },
+        {
+            "pos_label": 1,
+            "labels": [
+                0,
+                1
+            ],
+            "average": "binary"
+        }
+    ],
+    "error_metrics": [
+        "f1_score",
+        "accuracy_score",
+        "recall_score",
+        "precision_score"
+    ],
+    "save_model": true,
+    "error_metrics_nicknames": null,
+    "prebuilt_folds": "tos_100_splits_10_kfold",
+    "model_type": "experimental_basic_memn2n_v2",
+    "pre_loaded_model": null,
+    "use_tensorboard": false,
+    "repetitions": 1
+}

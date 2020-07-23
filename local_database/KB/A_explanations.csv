@@ -1,0 +1,9 @@
+,Id,Tag,Explanation
+0,opt_out,a2,since the consumer must first opt out for the arbitration not to be obligatory
+1,arb_obligatory,a2,"since all disputes must be resolved through arbitration, instead of a court of law, and the rights and obligations of the party will be decided by an arbitrator instead of a judge or jury."
+2,consent_tos,a2,since the user is bound by the arbitration clause on grounds of accepting the ToS
+3,outside_domicile,a3,since the arbitration is to take place in country different than the consumer's domicile.
+4,exceptions_apply,a2,since arbitration is mandatory though the clause contains exceptions where arbitration is not mandatory or does not apply under certain circumstances; this includes pursuing certain claims in a small claims court.
+5,unless_prohibited,a2,since arbitration is mandatory unless prohibited by applicable law.
+6,soft_redirection,a2,"since disputes which are unresolved informally, through a small claims court or otherwise, may be submitted for arbitration."
+7,extralegal_rules,a3,"since the consumer is mandatorily subject to rules on dispute resolution not covered by law; this includes any rules on arbitration coined by an arbitral body, chamber, association or other type of organization. "

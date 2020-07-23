@@ -1,0 +1,28 @@
+,Id,Tag,Explanation
+0,fraud_abuse_illegal,ter2,"since the contract or access may be terminated where the user has been engaging in illegal or unlawful activity, including fraudulent behaviour, abusive, misusive or otherwise harmful behaviour, or for reasons of safety or fraud prevention"
+1,breach,ter2,"since the contract or access can be terminated where the user fails to adhere to its terms, or community standards, or the spirit of the ToS or community terms, including inappropriate behaviour, using cheats or other disallowed practices to improve their situation in the service, deriving disallowed profits from the service, or interfering with other users' enjoyment of the service or otherwise puts them at risk, or is investigated under any suspision of misconduct."
+2,no_grounds,ter3,since the clause mentions the contract or access may be terminated but does not state the grounds for termination.
+3,misinfo,ter2,"since the clause mentions the contract or access may be terminated where the user has provided false, outdated or incomplete information."
+4,infring_tp_rights,ter2,"since the contract or access may be terminated in cases of  infringement upon rights of others, including copyrights or other intellectual property rights, including termination for repeat infringers."
+5,multiple,ter2,"since the contract or access may be terminated in cases of a single user holding or controlling multiple accounts, or multiple use of a single account."
+6,cred_security,ter2,since the contract or access may be terminated where the user fails to maintain the security of the login credentials and/or a security breach occurs.
+7,dormant,ter2,since the contract or access may be terminated where the account has been left dormant for a prescribed time.
+8,user_bad_rep,ter2,since the contract or access may be terminated where the user fails to maintain a prescribed level of reputation.
+9,reference,ter2,since the contract or access may be terminated but refers to grounds formulated elsewhere.
+10,content_violation,ter2,"since the contract or access may be terminated where the user has entered content into the service which is, or is deemed to be, infringing upon the rights of others or in violation with the terms of service."
+11,payments,ter2,"since the contract or access may be terminated where the user has not been meeting their payment obligations, or withdrawing payments, e.g. via chargeback"
+12,gen_rights_violation,ter2,since the clause generally states the contract or access may be terminated where the user has violated the rights of the service provider or other entities.
+13,over_quota,ter2,"since the contract or access may be terminated where the user has been violating the time, storage or other limits of the service."
+14,insolvency,ter2,"since the contract or access may be terminated where one of the parties has been declared insolvent, bankrupt, has a court receiver or a similar officer appointed, or proceedings are pending in regard to any of these cases."
+15,shutdown,ter2,since the contract or access may be terminated where the service is being shutdown or ceases to be available for any other reasons.
+16,no_consent,ter2,"since the contract or access may be terminated where the user's consent is missing or withdrawn, or where the user otherwise objests to the terms, policy or any change thereof."
+17,sex_of,ter2,"since the contract or access may be terminated where the user is a registered sex offender, or engaged or attempted to engage in sexual conduct with minors, or has been involved with child pornography"
+18,parole,ter2,since the contract or access may be terminated where the user has engaged in a parole or probation violation
+19,viability_eligibility,ter2,"since the contract or access may be terminated where the provision of the service to the user is no longer economically viable, or where the user is not eligible for the service."
+20,dispute,ter2,since the contract or access may be terminated where the user engages in a dispute with the service provider or owner.
+21,legal_reasons,ter2,"since the contract or access may be terminated to comply with legal requirements, or as a result of a request put in by authorities, or for broadly specified legal reasons"
+22,tech_reasons,ter2,since the clause broadly states the contract or access may be terminated for technical reasons
+23,any_reason,ter3,"since the clause generally states the contract or access may be terminated for any reason, without cause or leaves room for other reasons which are not specified."
+24,force_majeure,ter2,"since the clause generally states the contract or access may be terminated in an event of a force majeure, act of God or other unforeseen events of a similar nature."
+25,providers_exposure,ter2,"since the contract or access may be terminated where the user's actions or content create a risk of legal exposure, or damage to the provider's reputation"
+26,protect_rights,ter2,since the clause generally states the contract or access may be terminated to protect the rights and/or interests of the service provider or a third party.

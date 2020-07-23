@@ -1,0 +1,389 @@
+{
+  "experimental_basic_memn2n_v2": {
+    "feature_class": {
+      "value": "text_kb_supervision_features",
+      "flags": [
+        "converter"
+      ]
+    },
+    "optimizer_args": {
+      "value": {
+        "beta_1": 0.9,
+        "beta_2": 0.999,
+        "epsilon": 1e-08,
+        "learning_rate": 0.0001
+      },
+      "flags": [
+        "model_class"
+      ]
+    },
+    "filter_names": {
+      "value": null,
+      "flags": [
+        "processor"
+      ]
+    },
+    "optimizer": {
+      "value": "adam",
+      "flags": [
+        "model_class"
+      ]
+    },
+    "embedding_dimension": {
+      "value": 256,
+      "flags": [
+        "tokenizer",
+        "model_class"
+      ]
+    },
+    "embedding_model_type": {
+      "value": null,
+      "flags": [
+        "tokenizer"
+      ]
+    },
+    "add_gradient_noise": {
+      "value": true,
+      "flags": [
+        "model_class"
+      ]
+    },
+    "l2_regularization": {
+      "value": 5e-04,
+      "flags": [
+        "model_class"
+      ]
+    },
+    "build_embedding_matrix": {
+      "value": false,
+      "flags": [
+        "tokenizer"
+      ]
+    },
+    "answer_weights": {
+      "value": [
+        128
+      ],
+      "flags": [
+        "model_class"
+      ]
+    },
+    "dropout_rate": {
+      "value": 0.5,
+      "flags": [
+        "model_class"
+      ]
+    },
+    "tokenizer_args": {
+      "value": {
+        "oov_token": 1
+      },
+      "flags": [
+        "tokenizer"
+      ]
+    },
+    "clip_gradient": {
+      "value": true,
+      "flags": [
+        "model_class"
+      ]
+    },
+    "hops": {
+      "value": 1,
+      "flags": [
+        "model_class"
+      ]
+    },
+    "max_grad_norm": {
+      "value": 40,
+      "flags": [
+        "model_class"
+      ]
+    },
+    "embedding_info": {
+      "value": {
+        "mode": "sum"
+      },
+      "flags": [
+        "model_class"
+      ]
+    },
+    "memory_lookup_info": {
+      "value": {
+        "mode": "mlp",
+        "weights": [
+          512
+        ]
+      },
+      "flags": [
+        "model_class"
+      ]
+    },
+    "extraction_info": {
+      "value": {
+        "mode": "sigmoid"
+      },
+      "flags": [
+        "model_class"
+      ]
+    },
+    "reasoning_info": {
+      "value": {
+        "mode": "concat"
+      },
+      "flags": [
+        "model_class"
+      ]
+    },
+    "partial_supervision_info": {
+      "value": {
+        "flag": false,
+        "coefficient": 1.0,
+        "margin": 0.5,
+        "mask_by_attention": false
+      },
+      "flags": [
+        "model_class",
+        "processor",
+        "converter"
+      ]
+    },
+    "max_tokens_limit": {
+      "value": 70,
+      "flags": ["converter"]
+    }
+  },
+  "experimental_baseline_lstm_v2": {
+    "filter_names": {
+      "flags": [
+        "processor"
+      ],
+      "value": null
+    },
+    "answer_weights": {
+      "flags": [
+        "model_class"
+      ],
+      "value": [
+        512
+      ]
+    },
+    "build_embedding_matrix": {
+      "flags": [
+        "tokenizer"
+      ],
+      "value": false
+    },
+    "embedding_dimension": {
+      "flags": [
+        "tokenizer",
+        "model_class"
+      ],
+      "value": 512
+    },
+    "embedding_model_type": {
+      "flags": [
+        "tokenizer"
+      ],
+      "value": ""
+    },
+    "l2_regularization": {
+      "flags": [
+        "model_class"
+      ],
+      "value": 0.0005
+    },
+    "optimizer_args": {
+      "flags": [
+        "model_class"
+      ],
+      "value": {
+        "beta_2": 0.999,
+        "beta_1": 0.9,
+        "epsilon": 1e-08,
+        "lr": 0.001
+      }
+    },
+    "lstm_weights": {
+      "flags": [
+        "model_class"
+      ],
+      "value": [
+        512
+      ]
+    },
+    "tokenizer_args": {
+      "flags": [
+        "tokenizer"
+      ],
+      "value": {
+        "oov_token": 1
+      }
+    },
+    "dropout_rate": {
+      "flags": [
+        "model_class"
+      ],
+      "value": 0.5
+    },
+    "feature_class": {
+      "value": "text_features",
+      "flags": [
+        "converter"
+      ]
+    }
+  },
+  "experimental_baseline_cnn_v2": {
+    "cnn_weights": {
+      "value": [
+        [
+          512,
+          3
+        ]
+      ],
+      "flags": "model_class"
+    },
+    "answer_weights": {
+      "value": [
+        512
+      ],
+      "flags": [
+        "model_class"
+      ]
+    },
+    "optimizer_args": {
+      "flags": [
+        "model_class"
+      ],
+      "value": {
+        "beta_2": 0.999,
+        "epsilon": 1e-08,
+        "beta_1": 0.9,
+        "lr": 1e-03
+      }
+    },
+    "dropout_rate": {
+      "flags": [
+        "model_class"
+      ],
+      "value": 0.5
+    },
+    "embedding_dimension": {
+      "flags": [
+        "converter",
+        "model_class"
+      ],
+      "value": 512
+    },
+    "build_embedding_matrix": {
+      "flags": [
+        "converter"
+      ],
+      "value": false
+    },
+    "l2_regularization": {
+      "flags": [
+        "model_class"
+      ],
+      "value": 1e-05
+    },
+    "embedding_model_type": {
+      "flags": [
+        "converter"
+      ],
+      "value": ""
+    },
+    "filter_names": {
+      "value": null,
+      "flags": [
+        "processor"
+      ]
+    },
+    "tokenizer_args": {
+      "value": {
+        "oov_token": 1
+      },
+      "flags": [
+        "tokenizer"
+      ]
+    },
+    "feature_class": {
+      "value": "text_features",
+      "flags": [
+        "converter"
+      ]
+    }
+  },
+  "experimental_baseline_sum_v2": {
+    "answer_weights": {
+      "value": [
+        128
+      ],
+      "flags": [
+        "model_class"
+      ]
+    },
+    "optimizer_args": {
+      "value": {
+        "beta_1": 0.9,
+        "beta_2": 0.999,
+        "epsilon": 1e-08,
+        "learning_rate": 0.0001
+      },
+      "flags": [
+        "model_class"
+      ]
+    },
+    "dropout_rate": {
+      "flags": [
+        "model_class"
+      ],
+      "value": 0.5
+    },
+    "embedding_dimension": {
+      "flags": [
+        "tokenizer",
+        "model_class"
+      ],
+      "value": 512
+    },
+    "build_embedding_matrix": {
+      "flags": [
+        "tokenizer"
+      ],
+      "value": false
+    },
+    "l2_regularization": {
+      "flags": [
+        "model_class"
+      ],
+      "value": 5e-04
+    },
+    "embedding_model_type": {
+      "flags": [
+        "tokenizer"
+      ],
+      "value": ""
+    },
+    "filter_names": {
+      "value": null,
+      "flags": [
+        "processor"
+      ]
+    },
+    "tokenizer_args": {
+      "value": {
+        "oov_token": 1
+      },
+      "flags": [
+        "tokenizer"
+      ]
+    },
+    "feature_class": {
+      "value": "text_features",
+      "flags": [
+        "converter"
+      ]
+    }
+  }
+}

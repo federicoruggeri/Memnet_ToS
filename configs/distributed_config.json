@@ -1,0 +1,15 @@
+{
+  "strategy": "OneDeviceStrategy",
+  "strategy_args": {
+    "CentralStorageStrategy": {},
+    "OneDeviceStrategy": {
+      "device": "/gpu:0"
+    },
+    "MirroredStrategy": {
+      "devices": ["/gpu:0"]
+    }
+  },
+  "shuffle_amount": 30000,
+  "prefetch_amount": 1024,
+  "reshuffle_each_iteration": true
+}
