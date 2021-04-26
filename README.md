@@ -1,4 +1,4 @@
-Supplementary Material used in "Memory networks for consumer protection:unfairness exposed"
+Official repository for "Detecting and explaining unfairness in consumer contracts through memory networks"
 
 # Enviroment settings
 
