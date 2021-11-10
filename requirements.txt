@@ -27,7 +27,7 @@ tensorboard-plugin-wit==1.6.0.post3
 tensorflow-addons==0.6.0
 tensorflow-datasets==2.0.0
 tensorflow-estimator==2.0.1
-tensorflow-gpu==2.0.0
+tensorflow-gpu==2.5.2
 tensorflow-hub==0.6.0
 tensorflow-metadata==0.21.1
 tensorflow-probability==0.8.0
