@@ -14,7 +14,7 @@ keras-self-attention==0.41.0
 keras-transformer==0.31.0
 matplotlib==3.0.3
 nltk==3.4.4
-numpy==1.16.4
+numpy==1.22.0
 pandas==0.25.0
 scikit-image==0.15.0
 scikit-learn==0.21.3
